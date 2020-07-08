@@ -1,2 +1,1 @@
-* linguist-vendored
-*.html linguist-vendored=false
+*.* linguist-language=cpp
