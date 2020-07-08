@@ -88,7 +88,8 @@ void filter2_fill(int set) {
     }
 }
 ```
- 	At this stage we were almost ready to proceed to the graph. The class city created by my comrades, I asked to replace by struct city.
+
+At this stage we were almost ready to proceed to the graph. The class city created by my comrades, I asked to replace by struct city.
 ```cpp
 struct city {
     string name;
@@ -97,7 +98,7 @@ struct city {
     vector<city*> connected_to;
 };
 ```
-    Two notable benefits made me do this; firstly, it helps to avoid writing some necessary parts of each class such as constructor, destructor, etc., secondly, struct is more instinctively comprehensible. Moreover, file (Connections.csv) was created to store the edges with the following interface – each line consists of first, second coordinates of first and second city, and the distance between them. To construct the spanning tree, we chose the Kruskal algorithm, while my teammates worked on BFS and function which checks the cyclicity of the graph, I provided them with the function kruskalListFiller()which returns the list of all edges sorted by the length.
+Two notable benefits made me do this; firstly, it helps to avoid writing some necessary parts of each class such as constructor, destructor, etc., secondly, struct is more instinctively comprehensible. Moreover, file (Connections.csv) was created to store the edges with the following interface – each line consists of first, second coordinates of first and second city, and the distance between them. To construct the spanning tree, we chose the Kruskal algorithm, while my teammates worked on BFS and function which checks the cyclicity of the graph, I provided them with the function kruskalListFiller()which returns the list of all edges sorted by the length.
 ```cpp
 void kruskalListFiller()
 {
@@ -114,7 +115,7 @@ void kruskalListFiller()
     sort(kruskalList.begin(), kruskalList.end(), KrSort);
 }
 ```
- 	There I made some additional functions – findCity(double x, double y) and lenEdge(pair<city, city> p) ,which return city by its coordinates and distance between two cities respectively.
+There I made some additional functions – findCity(double x, double y) and lenEdge(pair<city, city> p) ,which return city by its coordinates and distance between two cities respectively.
  ```cpp
 city findCity(double x, double y)
 {
