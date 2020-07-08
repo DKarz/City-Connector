@@ -2,7 +2,7 @@
 The map is available at the link:
 https://city-connector.herokuapp.com
 
-Demonstration:<br>
+Demonstration:<br/>
 ![](https://github.com/DKarz/readme-media/blob/master/city-conn1.gif?raw=true)
 
 ![](https://github.com/DKarz/readme-media/blob/master/city-conn22.gif?raw=true)
