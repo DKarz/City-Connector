@@ -1,11 +1,15 @@
 # City-Connector
+The map is available at the link:
 https://city-connector.herokuapp.com
 
+Demonstration:
+![](https://github.com/DKarz/readme-media/blob/master/city-conn1.gif?raw=true)
 
-![]()
+![](https://github.com/DKarz/readme-media/blob/master/city-conn22.gif?raw=true)
+
+![](https://github.com/DKarz/readme-media/blob/master/city-conn3.gif?raw=true)
 
 
-:
 ### Internship goals: 
 consolidation, expansion and deepening of the theoretical knowledge and acquirement of initial practical skills in solving specific problems 
 ### Tasks:	
