@@ -2,4 +2,4 @@
 https://city-connector.herokuapp.com
 
 
-![](https://res.cloudinary.com/dulaytxwk/raw/upload/v1591980099/430437500_smile.jpg)
+![](blob:https://giphy.com/27ad5cdb-55f2-4233-bfb8-f76571027fb4)
