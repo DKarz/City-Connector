@@ -1,3 +1,1 @@
-*.rb linguist-language=cpp
-* linguist-vendored
-*.js linguist-vendored=false
+ *.* linguist-language=Cpp
